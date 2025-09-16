@@ -1,0 +1,22 @@
+# Rust
+target/
+Cargo.lock
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Nix
+result
+result-*
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/

@@ -1,0 +1,18 @@
+[package]
+name = "super-exit"
+version = "0.1.0"
+edition = "2021"
+description = "Recursively exit nested Nushell shells to close terminal"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/gignsky/super-exit"
+authors = ["gignsky"]
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+sysinfo = "0.29"
+nix = "0.27"
+tokio = { version = "1.0", features = ["full"] }
+
+[[bin]]
+name = "super-exit"
+path = "src/main.rs"
